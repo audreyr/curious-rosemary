@@ -10,13 +10,13 @@ sections:
   pricing_plans:
   - title: Individual
     price: "$49/box"
-    details: |-
-      * Lorem ipsum dolor sit amet
-      * Mauris a mi tincidunt
-      * Suspendisse ut lacus
-      * Etiam eget dui a augue
+    details: Get a week's worth of groceries for one person.
     actions:
-    - label: Order Now
+    - label: Subscribe & Save
+      url: subscribe
+      primary: true
+      new_window: false
+    - label: Order a Box
       url: "/signup"
       primary: false
       new_window: false
