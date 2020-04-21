@@ -12,13 +12,13 @@ sections:
     price: "$49/box"
     details: Get a week's worth of groceries for one person.
     actions:
-    - label: Subscribe & Save
-      url: subscribe
-      primary: true
-      new_window: false
     - label: Order a Box
       url: "/signup"
       primary: false
+      new_window: false
+    - label: Subscribe & Save
+      url: subscribe
+      primary: true
       new_window: false
     highlight: false
   - title: Professional
