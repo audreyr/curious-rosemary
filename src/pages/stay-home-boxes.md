@@ -8,7 +8,7 @@ sections:
   subtitle: You can have a separate pricing page or list everything on the home page.
   background: gray
   pricing_plans:
-  - title: Individual
+  - title: Small
     price: "$49/box"
     details: Get a week's worth of groceries for one person.
     actions:
@@ -21,27 +21,18 @@ sections:
       primary: true
       new_window: false
     highlight: false
-  - title: Professional
-    price: "$49/m"
-    details: |-
-      * Curabitur non nunc mollis
-      * Duis a purus nec ligula
-      * Pellentesque sit amet
-      * Fusce tempus mi vitae
-      * Nullam sollicitudin ante
+  - title: Medium
+    price: "$99/box"
+    details: Get a week's worth of groceries for two to three people.
     highlight: true
     actions:
     - label: Order Now
       url: "/signup"
       primary: false
       new_window: false
-  - title: Enterprise
-    price: "$149/m"
-    details: |-
-      * Vestibulum non eros quis
-      * Aenean iaculis lorem
-      * Mauris eleifend sapien
-      * Phasellus lobortis risus
+  - title: Large
+    price: "$198/box"
+    details: Get a week's worth of groceries for four to five people.
     actions:
     - label: Order Now
       url: "/signup"

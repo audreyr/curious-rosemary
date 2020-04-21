@@ -1,4 +1,4 @@
-// functions/hello.js
+// functions/hello.js from https://kentcdodds.com/blog/super-simple-start-to-serverless
 exports.handler = async event => {
     const subject = event.queryStringParameters.name || 'World'
     return {
@@ -6,4 +6,3 @@ exports.handler = async event => {
       body: `Hello ${subject}!`,
     }
   }
-  
