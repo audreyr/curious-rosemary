@@ -30,10 +30,10 @@
     ]
   },
   "footer": {
-    "logo_img": "images/logo_alt.png",
+    "logo_img": "/images/Swadesh-Bengali-Grocery-Store-and-Restaurant.jpg",
     "tagline": "SaaS theme by Stackbit",
     "has_nav": true,
-    "nav_title": "Company",
+    "nav_title": "Learn More",
     "nav_links": [
       {
         "label": "About Us",
