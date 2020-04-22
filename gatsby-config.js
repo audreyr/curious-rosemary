@@ -36,6 +36,17 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
             }
-        }
+        },
+        {
+            resolve: "gatsby-source-graphql",
+            options: {
+              // This type will contain remote schema Query type
+              typeName: "query",
+              // This is the field under which it's accessible
+              fieldName: "hasuraSample",
+              // URL to query from
+              url: "https://hasura-sample-remote-schema.glitch.me/",
+            },
+          },
     ]
 };
