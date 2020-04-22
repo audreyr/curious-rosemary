@@ -3,32 +3,27 @@ title: Groceries
 sections:
 - type: section_content
   template: section_content
-  title: The Best Features of Your Services
-  section_id: features
+  title: Order Our Groceries Here
+  section_id: groceries
   content: |-
-    Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum consectetur lobortis.
+    Get your groceries via:
 
-    * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    * Ut eu nunc at diam fringilla fringilla eu ut massa.
-    * Phasellus ut enim non lorem venenatis rutrum.
+    * Curbside pickup
+    * Delivery within 3 miles of our store
 
-    Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor sed justo tempor condimentum.
+    Call us if there's a product you want that's not listed here.
   image: images/feature1.png
   background: gray
   actions:
-  - label: Free Trial
-    url: "/signup"
-    primary: false
-    new_window: false
-  - label: View Demo
+  - label: View Products
     url: "#"
     primary: false
     new_window: false
 - type: section_cta
   template: section_cta
-  title: This Is Call to Action Block!
+  title: Order While You Can
   section_id: call-to-action
-  subtitle: This is an optional description for the call to action block.
+  subtitle: Supplies are limited to what we have in stock in our store. 
   actions:
   - label: Get Started
     url: "#"
